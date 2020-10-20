@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css" >
+    <meta charset="UTF-8">
+    <title>Просмотр анкет</title>
+</head>
+<p>
+    <button onclick="giveData(table)" id="showTable">Показать таблицу</button>
+</p>
+<p>
+<table id="table" class="form_head">
+    <tr>
+        <td></td>
+    </tr>
+</table>
+</p>
+<script src="js/search.js" type="text/javascript"></script>
+
+<script>
+var table = document.querySelector('#table');
+giveData(table);
+</script>
+<p>
+<form action="/logout" method="post">
+    <input type="submit" value="Выйти">
+</form>
+</p>
+</body>
+</html>

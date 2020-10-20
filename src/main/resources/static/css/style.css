@@ -1,0 +1,220 @@
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.form-index {
+font-size:16;
+ width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=text] {
+height:30;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.login_form {
+text-align:center;
+}
+
+input[type=submit] {
+   display: inline-block;
+   font-size: 20;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    width: 10em;
+    height: 3em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: rgb(0,0,0);
+    outline: none;
+    border: 1px solid rgba(0,0,0,.4);
+    border-top-color: rgba(0,0,0,.3);
+    border-radius: 2px;
+    background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+    box-shadow:
+     0 0 3px rgba(0,0,0,0) inset,
+     0 1px 1px 1px rgba(255,255,255,.2),
+     0 -1px 1px 1px rgba(0,0,0,0);
+    transition: .2s ease-in-out;
+}
+input[type=submit]:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+input[type=submit]:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+input[type=button] {
+   display: inline-block;
+    font-size: 20;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%, 0);
+     width: 10em;
+     height: 3em;
+     line-height: 2em;
+     vertical-align: middle;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+     color: rgb(0,0,0);
+     outline: none;
+     border: 1px solid rgba(0,0,0,.4);
+     border-top-color: rgba(0,0,0,.3);
+     border-radius: 2px;
+     background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+     box-shadow:
+      0 0 3px rgba(0,0,0,0) inset,
+      0 1px 1px 1px rgba(255,255,255,.2),
+      0 -1px 1px 1px rgba(0,0,0,0);
+     transition: .2s ease-in-out;
+}
+input[type=button]:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+input[type=button]:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+button {
+display: inline-block;
+    font-size: 20;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%, 0);
+display: inline-block;
+  width: 10em;
+  height: 3em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  color: rgb(0,0,0);
+  outline: none;
+  border: 1px solid rgba(0,0,0,.4);
+  border-top-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+  background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(255,255,255,.2),
+   0 -1px 1px 1px rgba(0,0,0,0);
+  transition: .2s ease-in-out;
+}
+button:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+button:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+
+a.button21 {
+display: inline-block;
+    font-size: 20;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%, 0);
+  display: inline-block;
+  width: 10em;
+  height: 3em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  color: rgb(0,0,0);
+  outline: none;
+  border: 1px solid rgba(0,0,0,.4);
+  border-top-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+  background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(255,255,255,.2),
+   0 -1px 1px 1px rgba(0,0,0,0);
+  transition: .2s ease-in-out;
+}
+a.button21:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+a.button21:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+a {
+text-align:center;
+ text-decoration:none;
+ font-size:18;
+}
+.form_head {
+text-align:center;
+
+}
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+  max-width: 70%;
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  border-top: 7px solid #9baff1;
+  border-bottom: 7px solid #9baff1;
+}
+th {
+  font-size: 13px;
+  font-weight: normal;
+  background: #e8edff;
+  border-right: 1px solid #9baff1;
+  border-left: 1px solid #9baff1;
+  color: #039;
+  padding: 8px;
+}
+td {
+  background: #e8edff;
+  border-right: 1px solid #aabcfe;
+  border-left: 1px solid #aabcfe;
+  color: #669;
+  padding: 8px;
+}

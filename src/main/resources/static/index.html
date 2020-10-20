@@ -1,0 +1,89 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css" >
+    <meta charset="UTF-8">
+<title> Форма абитуриентов </title>
+</head>
+<body>
+<p>
+<a class="button21" href="showForms">Просмотр анкет</a>
+</p>
+<form name = "ab_form" action="/send" method="post" class="form-index">
+    <h1 class="form_head">Анкета абитуриента </h1>
+    <p>
+<label for = "name"> ФИО </label> <br>
+<input type="text" name = "name" placeholder = "Фамилия Имя Отчество" id="name" required>
+    </p>
+    <p>
+<label for = "addrs"> Адрес </label> <br>
+<input type="text" name = "addrs" placeholder = "Ул. Пушкина дом 12" id="addrs" required>
+    </p>
+    <p>
+<label for = "birthDate"> Дата рождения </label> <br>
+<input type="date" name = "birthDate" placeholder = "12 лет" id="birthDate" required>
+    </p>
+    <p>
+<label for = "sex"> Пол </label> <br>
+<input type="radio" name = "sex" value = "man" id="sex" checked>Мужской</input> <br>
+<input type="radio" name = "sex" value = "woman">Женский</input>
+    </p>
+    <p>
+<label for="aboutMe" >О себе </label> <br>
+<textarea name = "aboutMe" id="aboutMe"> </textarea>
+    </p>
+<hr>
+
+    <h2>Информация о родителях</h2>
+    <p>
+    <label for = "haveFather"> Есть ли отец </label> <br>
+    <input type="radio" name = "haveFather" value = "true" id="haveFather" checked onclick="fatherTrue()">Есть</input> <br>
+    <input type="radio" name = "haveFather" value = "false" onclick="fatherFalse()">Нет</input>
+    </p>
+    <div id="father">
+    <h3>Отец</h3>
+    <p>
+        <label for = "fatherName"> ФИО </label> <br>
+        <input type="text" name = "fatherName" placeholder = "Фамилия Имя Отчество" id="fatherName" >
+    </p>
+        <p>
+
+        <label for = "fatherWork"> Место работы </label> <br>
+        <input type="text" name = "fatherWork" placeholder = "Ул. Пушкина дом 12" id="fatherWork" >
+        </p>
+        <p>
+
+        <label for = "fatherBirthDate"> Дата родения </label> <br>
+        <input type="date" name = "fatherBirthDate" placeholder = "12 лет" id="fatherBirthDate" >
+        </p>
+    <hr>
+    </div>
+    <p>
+    <label for = "haveMother"> Есть ли мать </label> <br>
+    <input type="radio" name = "haveMother" value = "true" id="haveMother" checked onclick="motherTrue()">Есть</input> <br>
+    <input type="radio" name = "haveMother" value = "false" onclick="motherFalse()">Нет</input>
+    </p>
+        <div id="mother">
+    <h3>Мать</h3>
+            <p>
+            <label for = "motherName"> ФИО </label> <br>
+            <input type="text" name = "motherName" placeholder = "Фамилия Имя Отчество" id="motherName" >
+            </p>
+            <p>
+            <label for = "motherWork"> Место работы </label> <br>
+            <input type="text" name = "motherWork" placeholder = "Ул. Пушкина дом 12" id="motherWork" >
+            </p>
+            <p>
+            <label for = "motherBirthDate"> Дата рождения </label> <br>
+            <input type="date" name = "motherBirthDate" id="motherBirthDate" >
+            </p>
+        </div>
+    <hr>
+    <p>
+    <input type="submit" value="Отправить форму">
+    </p>
+</form>
+
+<script src = "js/script.js" type="text/javascript" >
+</script>
+</body>
+</html>
